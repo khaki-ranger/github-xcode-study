@@ -9,10 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // Outlets
+    
+    // Variables
+    var name = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        setup()
+    }
+    
+    // Functions
+    
+    private func setup() {
+        name = "Yohei Terashima"
     }
 
 
